@@ -4,7 +4,7 @@ module.exports = function(n) {
     }
   
     if (n % 3 === 0 && n % 5 === 0) {
-      return 'fizzbuzz';
+      return 'fizzbuzzz';
     }
     if (n % 3 === 0) {
       return 'fizz';

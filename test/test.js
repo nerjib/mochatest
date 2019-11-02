@@ -7,7 +7,7 @@ describe('fizzbuzz', function() {
   });
 
   it('returns fizzbuzz when divisible by 15', function() {
-    assert.equal(fizzbuzz(45), 'fizzbuzz');
+    assert.equal(fizzbuzz(45), 'fizzbuzzz');
   });
 
   it('returns fizz when divisible by 3 but not 5', function() {
