@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "lint":  "eslint '**/*.js'",
     "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "test1": "./node_modules/mocha/bin/mocha ./test/test*",
     "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
@@ -23,6 +24,9 @@
   "homepage": "https://github.com/nerjib/mochatest#readme",
   "devDependencies": {
     "coveralls": "^3.0.7",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "istanbul": "^0.4.5",
     "jest": "^24.9.0",
     "mocha": "^6.2.2"
